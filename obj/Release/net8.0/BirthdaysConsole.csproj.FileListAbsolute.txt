@@ -1,0 +1,17 @@
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\BirthdaysConsole.exe
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\BirthdaysConsole.deps.json
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\BirthdaysConsole.runtimeconfig.json
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\BirthdaysConsole.dll
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\BirthdaysConsole.pdb
+E:\860dev\_NET\B-day\BirthdaysConsole\bin\Release\net8.0\CsvHelper.dll
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.csproj.AssemblyReference.cache
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.GeneratedMSBuildEditorConfig.editorconfig
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.AssemblyInfoInputs.cache
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.AssemblyInfo.cs
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.csproj.CoreCompileInputs.cache
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\Birthday.D386066E.Up2Date
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.dll
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\refint\BirthdaysConsole.dll
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.pdb
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\BirthdaysConsole.genruntimeconfig.cache
+E:\860dev\_NET\B-day\BirthdaysConsole\obj\Release\net8.0\ref\BirthdaysConsole.dll
