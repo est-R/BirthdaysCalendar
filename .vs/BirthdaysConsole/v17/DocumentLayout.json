@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Menu\\MenuAddPerson.cs",
               "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuAddPerson.cs",
               "RelativeToolTip": "Menu\\MenuAddPerson.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T23:42:00.805Z",
               "EditorCaption": ""
@@ -47,8 +51,7 @@
               "RelativeToolTip": "Menu\\MenuMain.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T23:40:33.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T23:40:33.192Z"
             },
             {
               "$type": "Document",
@@ -60,8 +63,7 @@
               "RelativeToolTip": "Menu\\MenuEditPerson.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T22:12:26.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T22:12:26.153Z"
             }
           ]
         }
