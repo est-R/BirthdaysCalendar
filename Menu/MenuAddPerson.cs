@@ -29,26 +29,15 @@ namespace BirthdaysConsole.Menu
                 return;
             }
 
-            //int year, month, day;
 
             while (true)
             {
                 try
                 {
-                    //Console.Write("Год рождения: ");
-                    //year = int.Parse(Console.ReadLine());
-
-                    //Console.Write("Месяц рождения: ");
-                    //month = int.Parse(Console.ReadLine());
-
-                    //Console.Write("День рождения: ");
-                    //day = int.Parse(Console.ReadLine());
-
                     Console.Write("Дата рождения в формате ДД/ММ/ГГГГ: ");
                     string? dateInput = Console.ReadLine();
                     int[] dateArray = dateInput.Split('/', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
-                    //DateOnly date = new DateOnly(year, month, day);
                     DateOnly date = new DateOnly(dateArray[2], dateArray[1], dateArray[0]);
 
                     Console.WriteLine($"\nВсё верно?\n | {name} | {date} | Y/N/Меню: ");

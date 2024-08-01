@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BirthdaysConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10219d34af5546c203e973e9f4da49a2bf4fb41c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BirthdaysConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BirthdaysConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
