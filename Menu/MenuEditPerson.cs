@@ -1,5 +1,6 @@
 ﻿
 using BirthdaysConsole.Data;
+using MongoDB.Bson.IO;
 
 namespace BirthdaysConsole.Menu
 {
@@ -17,10 +18,10 @@ namespace BirthdaysConsole.Menu
                 return;
             }
 
-            List<PersonData> list = DataManager.GetPersonsById(id);
+            List<PersonData> list = DataManager.GetPersonById(id);
             if (list.Count == 0)
             {
-                Console.WriteLine("\nНет записи с такким ID");
+                Console.WriteLine("\nНет записи с таким ID");
                 return;
             }
 
@@ -33,7 +34,10 @@ namespace BirthdaysConsole.Menu
                 return;
             }
 
-            PersonData editedPerson = new PersonData();
+            PersonData editedPerson = new PersonData
+            {
+                BsonId = list.First().BsonId
+            };
 
             Console.Write("Введите новую дату рождения в формате ДД/ММ/ГГГГ. Оставте поле пустым, если редактирование не требуется. ");
             string? dateInput = Console.ReadLine();
@@ -43,17 +47,16 @@ namespace BirthdaysConsole.Menu
             }
             else
             {
-                int[] dateArray = dateInput.Split('/', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-
-                if (dateArray[0] <= 0) dateArray[0] = 1;
-                if (dateArray[0] > DateOnly.MaxValue.Day) dateArray[0] = DateOnly.MaxValue.Day;
-                if (dateArray[1] <= 0) dateArray[1] = 1;
-                if (dateArray[1] > DateOnly.MaxValue.Month) dateArray[1] = DateOnly.MaxValue.Month;
-                if (dateArray[2] <= 0) dateArray[2] = 2000;
-                if (dateArray[2] > DateOnly.MaxValue.Year) dateArray[2] = DateOnly.MaxValue.Year;
-
-                DateOnly date = new DateOnly(dateArray[2], dateArray[1], dateArray[0]);
-                editedPerson.Date = date;
+                try
+                {
+                    int[] dateArray = dateInput.Split('/', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+                    DateTime date = new DateTime(dateArray[2], dateArray[1], dateArray[0]);
+                    editedPerson.Date = date;
+                }
+                catch { 
+                    Console.WriteLine("\nНеправильный формат даты."); 
+                    return; 
+                }
             }
 
             string newName = "";
@@ -87,8 +90,7 @@ namespace BirthdaysConsole.Menu
                     return;
                 case "y":
                     {
-                        DataManager.EditPersonName(list.First(), editedPerson.Name);
-                        DataManager.EditPersonDate(list.First(), editedPerson.Date);
+                        DataManager.EditPersonAsync(list.First(), editedPerson);
                         Program.CurrentMenu = MenuID.Main;
                         return;
                     }

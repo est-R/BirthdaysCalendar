@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\menu\\menuaddperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|solutionrelative:menu\\menuaddperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\menu\\menueditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|solutionrelative:menu\\menueditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\menu\\menumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|solutionrelative:menu\\menumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\data\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|solutionrelative:data\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\menu\\menueditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsole.csproj|solutionrelative:menu\\menueditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\data\\mongohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|solutionrelative:data\\mongohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\menu\\menumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|solutionrelative:menu\\menumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|e:\\860dev\\_net\\b-day\\birthdaysconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4319E763-655C-4F0B-A14D-33AE5FE0DC39}|BirthdaysConsoleDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuAddPerson.cs",
-              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuAddPerson.cs",
-              "RelativeDocumentMoniker": "Menu\\MenuAddPerson.cs",
-              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuAddPerson.cs",
-              "RelativeToolTip": "Menu\\MenuAddPerson.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T23:42:00.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuMain.cs",
-              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuMain.cs",
-              "RelativeDocumentMoniker": "Menu\\MenuMain.cs",
-              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuMain.cs",
-              "RelativeToolTip": "Menu\\MenuMain.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T23:40:33.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MenuEditPerson.cs",
               "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuEditPerson.cs",
               "RelativeDocumentMoniker": "Menu\\MenuEditPerson.cs",
               "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuEditPerson.cs",
               "RelativeToolTip": "Menu\\MenuEditPerson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T22:12:26.153Z"
+              "WhenOpened": "2024-08-01T21:15:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoHelper.cs",
+              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Data\\MongoHelper.cs",
+              "RelativeDocumentMoniker": "Data\\MongoHelper.cs",
+              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Data\\MongoHelper.cs",
+              "RelativeToolTip": "Data\\MongoHelper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:46:21.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuMain.cs",
+              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuMain.cs",
+              "RelativeDocumentMoniker": "Menu\\MenuMain.cs",
+              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Menu\\MenuMain.cs",
+              "RelativeToolTip": "Menu\\MenuMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:41:39.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:35:08.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Data\\DataManager.cs",
+              "RelativeDocumentMoniker": "Data\\DataManager.cs",
+              "ToolTip": "E:\\860dev\\_NET\\B-day\\BirthdaysConsole\\Data\\DataManager.cs",
+              "RelativeToolTip": "Data\\DataManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwFcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:32:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

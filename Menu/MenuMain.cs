@@ -43,7 +43,7 @@ namespace BirthdaysConsole.Menu
                     DataManager.SaveDataToCSV();
                     break;
                 case 6:
-                    DataManager.ReadDataFromCSV();
+                    //DataManager.ReadDataFromCSV();
                     break;
                 default:
                     Templates.ResetScreen();
@@ -62,11 +62,13 @@ namespace BirthdaysConsole.Menu
             Console.WriteLine("3. Удалить запись");
             Console.WriteLine("4. Редактировать запись");
             Console.WriteLine("5. Сохранить данные в CSV");
-            Console.WriteLine("6. Загрузить данные из CSV");
+            //Console.WriteLine("6. Загрузить данные из CSV");
         }
 
         private static void PrintAll()
         {
+            DataManager.UpdateDatabaseAsync();
+
             if (Program.DB.Count == 0)
             {
                 Console.WriteLine("\nБаза данных пуста");
@@ -84,7 +86,7 @@ namespace BirthdaysConsole.Menu
         /// <param name="notice"></param>
         internal static void PrintToday(bool notice)
         {
-            List<PersonData> list = DataManager.GetTodaysPersons();
+            List<PersonData> list = DataManager.GetTodaysPersons(true);
 
             if ((list.Count == 0) && notice)
             {
@@ -117,12 +119,12 @@ namespace BirthdaysConsole.Menu
             return;
         }
 
-            if (list.Count > 0)
-            {
-                Console.WriteLine("\nБлижайшие дни рождения: ");
-                Templates.PersonsTable(list);
-            }
+        if (list.Count > 0)
+        {
+            Console.WriteLine("\nБлижайшие дни рождения: ");
+            Templates.PersonsTable(list);
         }
+    }
    
     
     }

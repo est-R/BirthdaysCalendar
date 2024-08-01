@@ -11,20 +11,20 @@ namespace BirthdaysConsole.Menu
     {
         internal static void PersonsTable (PersonData person)
         {
-            Console.WriteLine($"ID:{person.Id} | {person.Name} | {person.Date} |");
+            Console.WriteLine($"ID:{Program.DB.IndexOf(person)} | {person.Name} | {person.Date} |");
         }
 
         internal static void PersonsTable(List<PersonData> persons)
         {
-            int idWidth = persons.Max(p => p.Id.ToString().Length) + 3;
+            int idWidth = persons.Max(p => Program.DB.IndexOf(p).ToString().Length) + 3;
             int nameWidth = persons.Max(p => p.Name.Length) + 2;
-            int dateWidth = persons.Max(p => p.Date.ToString().Length) + 1;
+            int dateWidth = persons.Max(p => DateOnly.FromDateTime(p.Date).ToString().Length) + 1;
 
             Console.WriteLine($"{"ID".PadRight(idWidth)}| {"Имя".PadRight(nameWidth)}| {"Дата".PadRight(dateWidth)}|");
 
             foreach (var person in persons)
             {
-                Console.WriteLine($"{person.Id.ToString().PadRight(idWidth)}| {person.Name.PadRight(nameWidth)}| {person.Date.ToString().PadRight(dateWidth)}|");
+                Console.WriteLine($"{Program.DB.IndexOf(person).ToString().PadRight(idWidth)}| {person.Name.PadRight(nameWidth)}| {DateOnly.FromDateTime(person.Date).ToString().PadRight(dateWidth)}|");
             }
         }
 

@@ -1,23 +1,25 @@
 ﻿
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+
 namespace BirthdaysConsole.Data
 {
     internal class PersonData
     {
-        private static int _idCounter = 0;
-
-        public int Id { get; }
-
         private string _name = "Имя не задано";
+
+        //
+
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string? BsonId { get; set; }
+
+        [BsonElement("Name")]
         public string Name
         {
             get { return _name; }
             set { _name = value ?? "Имя не задано"; }
         }
-        public DateOnly Date { get; set; }
-
-        public PersonData()
-        {
-            Id = ++_idCounter;
-        }
+        public DateTime Date { get; set; }
     }
 }

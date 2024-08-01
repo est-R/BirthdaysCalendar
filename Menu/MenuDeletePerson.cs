@@ -20,6 +20,13 @@ namespace BirthdaysConsole.Menu
             }
 
             List<PersonData> list = DataManager.GetPersonsById(ids);
+            if (list.Count() == 0)
+            {
+                Console.WriteLine("Нет людей с такими ID. Нажмите ENTER, чтобы повторить.");
+                Console.Read();
+                return;
+            }
+
             Console.WriteLine("\nСледующие записи будут удалены. Продолжить? Y/N");
             Templates.PersonsTable(list);
             Console.Write("\n->");

@@ -38,7 +38,7 @@ namespace BirthdaysConsole.Menu
                     string? dateInput = Console.ReadLine();
                     int[] dateArray = dateInput.Split('/', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
-                    DateOnly date = new DateOnly(dateArray[2], dateArray[1], dateArray[0]);
+                    DateTime date = new DateTime(dateArray[2], dateArray[1], dateArray[0]);
 
                     Console.WriteLine($"\nВсё верно?\n | {name} | {date} | Y/N/Меню: ");
 
