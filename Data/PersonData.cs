@@ -4,6 +4,7 @@ using MongoDB.Bson;
 
 namespace BirthdaysConsole.Data
 {
+    [BsonIgnoreExtraElements]
     internal class PersonData
     {
         private string _name = "Имя не задано";
